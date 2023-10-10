@@ -6,5 +6,6 @@
 
 	# Autoload
 	spl_autoload_register(function($className){require_once 'Core/assets/' . $className .'.php';}); 
+	echo "lalalalalas";
     
 ?>
